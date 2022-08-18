@@ -555,7 +555,7 @@ void CoinNextDay(Player* p) {
 // 만료된 코인을 판매함(한 주가 지난 뒤 실행)
 void return_expired_coin(Player* p) {
     printf("한 주가 지났으므로 가지고 계신 만료된 코인은 기준 가치의 1/20로 자동 판매됩니다.\n");
-    printf("가격 -> 주황 코인 5원, 분홍 코인 41원, 빨강 코인 360원, 보라 코인 3150원");
+    printf("가격 -> 주황 코인 5원, 분홍 코인 41원, 빨강 코인 360원, 보라 코인 3150원\n");
     int i;
     for (i = 0; i < 4; i++) {
         print_type(i + 1);
@@ -572,7 +572,7 @@ void check_rank_up(Player* p) {
         printf("조건을 달성해서 B랭크로 올랐습니다! 축하합니다!\n");
         printf("이제 빨강 코인을 구매할 수 있습니다.\n");
     }
-    if (p->rank == 2 && p->selled_coin[2] >= 30 && p->total_gain_coin >= 5000000) {
+    if (p->rank == 2 && p->selled_coin[2] >= 30 && p->total_gain_coin >= 500000) {
         p->rank = 3;
         printf("조건을 달생해서 A랭크로 올랐습니다! 축하합니다!\n");
         printf("이제 보라 코인을 구매할 수 있습니다.\n");
