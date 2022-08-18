@@ -732,7 +732,7 @@ void ending_message(double duration) {
     Sleep(2000);
     system("cls");
     gotoxy(30, 5);
-    printf("만든 사람 : 임재민");
+    printf("만든 사람 : 임XX");
     Sleep(2000);
     system("cls");
     gotoxy(30, 5);
@@ -740,11 +740,11 @@ void ending_message(double duration) {
     Sleep(2000);
     system("cls");
     gotoxy(30, 5);
-    printf("황성연 김승욱 이성민");
+    printf("황XX 김XX 이XX");
     Sleep(2000);
     system("cls");
     gotoxy(30, 5);
-    printf("김도윤 2020년도 컴퓨터부 학생들");
+    printf("김XX 2020년도 컴퓨터부 학생들");
     Sleep(2000);
     system("cls");
     gotoxy(30, 5);
